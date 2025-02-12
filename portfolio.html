@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shariya Zehra Zaidi - Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script defer src="portfolio.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#home" class="firstlink">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="https://drive.google.com/file/d/1MgyYIRKBDqOKdEisasQvggo5KF6yytCy/view"" download>Resume</a>
+    </nav>
+
+    <!-- Header -->
+    <header id="home" class="header">
+        <div class="headertext">
+            <p>Software Developer</p>
+            <h1>Hi, I'm <span>Shariya Zehra Zaidi</span></h1>
+            <a href="https://drive.google.com/file/d/1MgyYIRKBDqOKdEisasQvggo5KF6yytCy/view" target="_blank" download class="btn">Download Resume</a>
+
+        </div>
+        <div class="mee">
+            <img src="mee.jpg" alt="Shariya Zehra Zaidi">
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="row">
+            <div class="col1">
+                <img src="mee2.jpg" alt="Profile Picture">
+            </div>
+            <div class="col2">
+                <h1 style="color: #5bc0de;" class="text">About Me</h1>
+                <br>
+                <p  class="me"  >I'm a dedicated B.Tech student with a passion for software development. Skilled in Java, JavaScript, Python and C. 
+                    I love solving complex problems and working on innovative projects.
+                    <br>
+                    I have solved more than 400 Questions on Leetcode.
+                </p>
+                
+                <div class="titles">
+                    <p class="skillinks" onclick="showTab('skills')">Skills</p>
+                    <p class="skillinks" onclick="showTab('education')">Education</p>
+                    <p class="skillinks" onclick="showTab('activities')">Activities</p>
+                </div>
+                <div class="underlink">
+                    <div class="contents" id="skills">
+                        <ul>
+                            <li>Java</li>
+                            <li>C</li>
+                            <li>Python</li>
+                            <li>JavaScript</li>
+                            <li>React.js</li>
+                            <li>Node.js</li>
+                        </ul>
+                    </div>
+                    <div class="contents" id="education" style="display: none;">
+                        <ul>
+                            <li>B.Tech, Galgotias College (2022-2026) - 8.32 CGPA</li>
+                            <li>12th, Anand Bhawan, 2022 - 95%</li>
+                            <li>10th, Anand Bhawan, 2020 - 92%</li>
+                        </ul>
+                    </div>
+                    <div class="contents" id="activities" style="display: none;">
+                        <ul>
+                            <li>Head- Coding Club</li>
+                            <li>Head- Marketing Club</li>
+                            <li>Scholarship Holder- Reliance Foundation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <h1 class="text" id="proj">My Projects</h1>
+        <div class="myimages">
+            <div class="column1">
+                <img src="proj1.jpg" alt="Project 1">
+                <div class="layer">
+                    <h2>Chat Application</h2>
+                    <p>Real-time chat app using MERN stack & WebSockets.</p>
+                    <a href="https://github.com/Shariya-zehra/web-chat-App-MERN-" target="_blank"><i class="fa-solid fa-link"></i>View Code on GitHub</a>
+                </div>
+            </div>
+
+            <div class="column2">
+                <img src="proj2.jpg" alt="Project 2">
+                <div class="layer">
+                    <h2>Social Media Monitoring</h2>
+                    <p>Deep learning-based Sentiment Analysis & Emotion Detection.</p>
+                    <a href="https://github.com/Shariya-zehra/emotion_detection_CNN" target="_blank"><i class="fa-solid fa-link"></i>View Code on GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="footer">
+        <h2 style="color: #6cd7f7;" >Contact Me</h2>
+        <br>
+        <p>Email: <a href="mailto:shariyazehra@gmail.com">shariyazehra@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/shariya-zehra-zaidi">linkedin.com/in/shariya-zehra-zaidi</a></p>
+        <p>GitHub: <a href="https://github.com/Shariya-zehra">github.com/Shariya-zehra</a></p>
+        <p>Leetcode: <a href="https://leetcode.com/u/zaidizehra/">leetcode.com/zaidizehra</a></p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+
+</body>
+</html>
+
